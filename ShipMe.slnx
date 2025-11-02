@@ -2,4 +2,7 @@
   <Folder Name="/Api/">
     <Project Path="App\ShipMe.Api\ShipMe.Api.csproj" Type="Classic C#" />
   </Folder>
+  <Folder Name="/Libs/">
+    <Project Path="Libs\ShipMe.Shared\ShipMe.Shared.csproj" Type="Classic C#" />
+  </Folder>
 </Solution>
