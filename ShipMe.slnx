@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Folder Name="/Api/">
+    <Project Path="App\ShipMe.Api\ShipMe.Api.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>
