@@ -1,1 +1,7 @@
-@ShipMe.Api_HostAddress = http://localhost:5153
+@HostAddress = http://localhost:5153
+@Version = "v1"
+
+
+### Get all examples
+GET {{HostAddress}}/api/{{Version}}/example
+Accept: application/json

@@ -7,13 +7,15 @@
     <File Path="App\Directory.Packages.props" />
   </Folder>
   <Folder Name="/Application/Libs/">
+    <Project Path="Libs\ShipMe.Assembly\ShipMe.Assembly.csproj" Type="Classic C#" />
+    <Project Path="Libs\ShipMe.OpenApi\ShipMe.OpenApi.csproj" Type="Classic C#" />
     <Project Path="Libs\ShipMe.Shared\ShipMe.Shared.csproj" Type="Classic C#" />
     <Project Path="Libs\ShipMe.Validation\ShipMe.Validation.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/Application/Tests/">
     <File Path="Tests\Directory.Packages.props" />
   </Folder>
-  <Folder Name="/Tests/Unit/">
+  <Folder Name="/Application/Tests/Unit/">
     <Project Path="Tests\Unit\ShipMe.Api.Tests\ShipMe.Api.Tests.csproj" Type="Classic C#" />
     <Project Path="Tests\Unit\ShipMe.Validation.Tests\ShipMe.Validation.Tests.csproj" Type="Classic C#" />
   </Folder>
