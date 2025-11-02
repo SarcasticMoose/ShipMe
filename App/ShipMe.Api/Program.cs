@@ -1,4 +1,5 @@
 using Carter;
+using Scalar.AspNetCore;
 using ShipMe.Api;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.MapCarter();

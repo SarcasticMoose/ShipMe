@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="LightResults" Version="9.0.5" />
+    <PackageVersion Include="FluentValidation" Version="12.0.0" />
+  </ItemGroup>
+</Project>

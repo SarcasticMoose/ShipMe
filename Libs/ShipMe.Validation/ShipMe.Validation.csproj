@@ -4,11 +4,14 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>ShipMe.Shared</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="LightResults" />
+      <PackageReference Include="FluentValidation"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ShipMe.Shared\ShipMe.Shared.csproj" />
     </ItemGroup>
 
 </Project>
